@@ -10,5 +10,5 @@ console.log (allLable)
 const firstInput = document.querySelector('input')
 console.log (firstInput)
 
-const lastInput = document.querySelector('input:nth-child(3)');
+const lastInput = document.querySelector('input:last-child');
 console.log(lastInput);
