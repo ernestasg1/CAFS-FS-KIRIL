@@ -4,4 +4,4 @@ function checkAge(age) {
     return (age > 18) ? true : 'did parents allow you?';
 }
 
-console.log(checkAge(20));
+console.log(checkAge(2));
