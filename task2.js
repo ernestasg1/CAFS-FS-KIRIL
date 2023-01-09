@@ -1,7 +1,7 @@
-let h1Element = document.querySelector("h1");
-let height = window.innerHeight;
-let width = window.innerWidth;
+let headerElement = document.querySelector("h1");
 
-btn.addEventListener("click",() => {
- h1Element.textContent = `Ekrano plotis: ${width}, o ekrano aukstis ${height}.`;
-});
+window.addEventListener("resize", () =>{reportWindowSize()});
+
+function reportWindowSize(){
+    headerElement.textContent = `Width: ${window.innerWidth}, Height: ${window.innerHeight}.`;
+}
