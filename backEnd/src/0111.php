@@ -28,7 +28,7 @@ echo thirdCalculation(10, 20, 2), NEW_LINE;
 
 
 function showWeekDay ($number){
-    if ($number <= 7) {
+    if ($number <= 7 && $number > 0) {
     $arr = [
         'Pirmadienis',
         'Antradienis',
@@ -44,4 +44,4 @@ function showWeekDay ($number){
 }
 }
 
-echo showWeekDay(10);
+echo showWeekDay(0);
