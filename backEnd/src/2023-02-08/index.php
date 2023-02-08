@@ -1,5 +1,5 @@
 <?php
-require_once ('greetings.php');
-$Greetings = new Greetings('Ernestas');
-$Greetings->getGreetings();
+require_once ('Greetings.php');
+$greetings = new Greetings('Ernestas');
+$greetings->getGreetings();
 
