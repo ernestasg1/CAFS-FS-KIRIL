@@ -1,6 +1,6 @@
 <?php
 
-class newGreetings
+class Greetings
 {
     function __construct(
         public ?string $firstName = null
